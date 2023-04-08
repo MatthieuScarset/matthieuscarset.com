@@ -1,4 +1,4 @@
-name: myproject
+name: matthieuscarset
 recipe: drupal10
 services:
   appserver:
