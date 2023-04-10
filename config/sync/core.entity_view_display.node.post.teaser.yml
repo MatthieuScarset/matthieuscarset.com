@@ -1,17 +1,17 @@
-uuid: 2292eb45-1878-4b1a-85ff-ac5fbfaad10c
-langcode: en
+uuid: fba51a6f-3d2b-489f-a6d5-ed43c9a6ebf1
+langcode: fr
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.page.body
-    - node.type.page
+    - field.field.node.post.body
+    - node.type.post
   module:
     - text
     - user
-id: node.page.teaser
+id: node.post.teaser
 targetEntityType: node
-bundle: page
+bundle: post
 mode: teaser
 content:
   body:

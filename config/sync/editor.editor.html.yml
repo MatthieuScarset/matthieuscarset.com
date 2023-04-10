@@ -1,0 +1,34 @@
+uuid: 3807f53b-cda1-4bb0-9ff5-bed429ae424b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - filter.format.html
+  module:
+    - ckeditor5
+format: html
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - heading
+      - style
+      - bold
+      - italic
+      - bulletedList
+      - numberedList
+      - blockQuote
+  plugins:
+    ckeditor5_heading:
+      enabled_headings:
+        - heading2
+        - heading3
+    ckeditor5_list:
+      reversed: true
+      startIndex: true
+    ckeditor5_style:
+      styles:
+        -
+          label: Titre
+          element: '<h2 class="title">'
+image_upload: {  }

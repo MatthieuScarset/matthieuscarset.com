@@ -1,0 +1,28 @@
+/** Global **/
+body {
+  --color-fg: #1B262C;
+}
+
+/** Header **/
+.region-header,
+.region-footer,
+.block-menu ul,
+.block-system-branding-block {
+  display: flex;
+  flex-direction: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.region-footer,
+.region-header {
+  justify-content: space-between;
+}
+
+.site-logo img {
+  height: 3rem;
+}
+
+.block-menu li {
+  list-style: none;
+}

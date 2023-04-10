@@ -11,7 +11,7 @@ dependencies:
 id: matthieu_header_menu
 theme: matthieu
 region: header
-weight: 0
+weight: -4
 provider: null
 plugin: 'system_menu_block:main'
 settings:

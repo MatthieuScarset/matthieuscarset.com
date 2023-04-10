@@ -1,16 +1,16 @@
-uuid: 6ccb3ae2-b4db-4742-8222-700b2603939a
-langcode: en
+uuid: 9eb4b447-28e1-4e53-934e-9017a12f6925
+langcode: fr
 status: true
 dependencies:
   config:
-    - field.field.node.page.body
-    - node.type.page
+    - field.field.node.post.body
+    - node.type.post
   module:
     - text
     - user
-id: node.page.default
+id: node.post.default
 targetEntityType: node
-bundle: page
+bundle: post
 mode: default
 content:
   body:

@@ -1,0 +1,23 @@
+uuid: 0a4d214f-0407-4c4d-9b84-28ae1ea8d29f
+langcode: fr
+status: true
+dependencies: {  }
+name: HTML
+format: html
+weight: 0
+filters:
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: false
+    weight: -10
+    settings:
+      allowed_html: '<h2 class="title">'
+      filter_html_help: true
+      filter_html_nofollow: false
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: true
+    weight: 10
+    settings: {  }
