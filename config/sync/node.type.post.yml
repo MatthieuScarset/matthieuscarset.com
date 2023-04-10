@@ -1,8 +1,15 @@
 uuid: 57db4c37-96d3-47d3-a8a0-f65d06fb3731
 langcode: fr
 status: true
-dependencies: {  }
-name: Article
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Contenu
 type: post
 description: ''
 help: ''

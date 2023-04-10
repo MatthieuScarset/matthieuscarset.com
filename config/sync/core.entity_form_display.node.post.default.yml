@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.post.body
+    - field.field.node.post.categories
     - field.field.node.post.image
     - node.type.post
   module:
@@ -24,6 +25,16 @@ content:
       summary_rows: 3
       placeholder: ''
       show_summary: false
+    third_party_settings: {  }
+  categories:
+    type: entity_reference_autocomplete
+    weight: 26
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   created:
     type: datetime_timestamp

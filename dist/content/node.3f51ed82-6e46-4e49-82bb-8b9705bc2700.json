@@ -42,7 +42,7 @@
     ],
     "title": [
         {
-            "value": "Calendar View"
+            "value": "A propos"
         }
     ],
     "created": [
@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-04-10T16:31:12+00:00",
+            "value": "2023-04-10T22:23:21+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -79,7 +79,7 @@
     ],
     "path": [
         {
-            "alias": "\/blog\/calendar-view",
+            "alias": "\/moi",
             "langcode": "fr"
         }
     ],
@@ -95,15 +95,16 @@
     ],
     "body": [
         {
-            "value": "<p>Ce module est superbe.<\/p>",
+            "value": "<p>D\u00e9veloppeur fullstack exp\u00e9riment\u00e9 construisant des applications Drupal sur mesure depuis plus de 10 ans.<\/p><p>Penseur rapide, pragmatique et r\u00e9solveur de probl\u00e8mes. Besoin d'action et de nouveaux challenges pour rester motiv\u00e9.<\/p><p>A v\u00e9cu \u00e0 Paris et en Bretagne (France), en Espagne (Majorque et Malaga) et un peu \u00e0 Hong Kong, \u00e0 Montr\u00e9al (Qu\u00e9bec, Canada) et au Panama.<\/p><p>Passionn\u00e9 par la gastronomie, le caf\u00e9, Drupal, les \u00e9cosyst\u00e8mes Blockchain et les technologies d'intelligence artificielle.<\/p><p><em>Maintainer<\/em> de plusieurs modules <em>contrib<\/em> populaires dont notamment : Drupal Calendar View, Drupal Tooltip, Drupal Ethereum et Drupal NFT.<\/p><p>Favoris : Linux, Lando, VSCode, Drupal, Git, PHP, JavaScript et Solidity.<\/p>",
             "format": "html",
             "summary": ""
         }
     ],
+    "categories": [],
     "image": [
         {
             "target_type": "media",
-            "target_uuid": "bd9261f7-1f9b-42ce-ae36-c9467f12b651"
+            "target_uuid": "03f8fd1d-c8b9-4f05-8671-7906593d004a"
         }
     ]
 }

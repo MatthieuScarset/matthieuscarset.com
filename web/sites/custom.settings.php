@@ -104,6 +104,11 @@ foreach ($config_splits as $config_split_id => $config_split_status) {
   $config["config_split.config_split.$config_split_id"]['status'] = $config_split_status;
 }
 
+// Tome.
+$settings['tome_files_directory'] = '../dist/files';
+$settings['tome_content_directory'] = '../dist/content';
+$settings['tome_static_directory'] = '../dist/html';
+
 // Local settings.
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';

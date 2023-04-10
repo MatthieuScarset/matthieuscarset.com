@@ -1,0 +1,92 @@
+{
+    "uuid": [
+        {
+            "value": "03f8fd1d-c8b9-4f05-8671-7906593d004a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image",
+            "target_type": "media_type",
+            "target_uuid": "0b595087-6f87-4b25-98ef-cf6d9f57c057"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-04-10T21:39:37+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "name": [
+        {
+            "value": "Matthieu Scarset"
+        }
+    ],
+    "thumbnail": [
+        {
+            "alt": "Ma photo",
+            "title": null,
+            "width": 705,
+            "height": 705,
+            "target_type": "file",
+            "target_uuid": "3d431c1e-c64b-4d65-9338-9512919c8107"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-04-10T21:39:23+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-04-10T21:39:23+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "fr"
+        }
+    ],
+    "field_media_image": [
+        {
+            "alt": "Ma photo",
+            "title": "",
+            "width": 705,
+            "height": 705,
+            "target_type": "file",
+            "target_uuid": "3d431c1e-c64b-4d65-9338-9512919c8107"
+        }
+    ]
+}

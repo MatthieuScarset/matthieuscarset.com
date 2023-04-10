@@ -5,8 +5,9 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.post.body
+    - field.field.node.post.categories
     - field.field.node.post.image
-    - image.style.large
+    - image.style.thumbnail
     - node.type.post
   module:
     - media
@@ -25,12 +26,20 @@ content:
     third_party_settings: {  }
     weight: 1
     region: content
+  categories:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
   image:
     type: media_thumbnail
-    label: above
+    label: hidden
     settings:
       image_link: content
-      image_style: large
+      image_style: thumbnail
       image_loading:
         attribute: lazy
     third_party_settings: {  }
@@ -39,7 +48,7 @@ content:
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 2
+    weight: 3
     region: content
 hidden:
   langcode: true

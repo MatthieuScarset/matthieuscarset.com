@@ -22,8 +22,8 @@ a {
 .block-menu ul,
 .block-system-branding-block {
   display: flex;
-  flex-direction: wrap;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 1.5rem;
   align-items: center;
 }
 
@@ -36,10 +36,24 @@ a {
   height: 3rem;
 }
 
+.block-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
 .block-menu li {
   list-style: none;
 }
 
-/** Articles **/
-.node--type-post .field--name-image img {
+.block-menu a {
+  display: block;
+  padding: 0.25rem;
+  text-decoration: none;
+  border: 0.25rem solid transparent;
+  border-style: dashed;
+}
+
+.block-menu a:hover,
+.block-menu a.is-active {
+  border-bottom-color: var(--color-link-hover);
 }

@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "3d431c1e-c64b-4d65-9338-9512919c8107"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "filename": [
+        {
+            "value": "matthieu-scarset.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2023-04\/matthieu-scarset.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 104320
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-04-10T21:39:23+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-04-10T21:39:37+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

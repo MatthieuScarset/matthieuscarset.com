@@ -1,4 +1,4 @@
-uuid: 75329fe9-7de9-4e37-9a50-b28a4a6458fd
+uuid: 5906910a-cb7b-4efe-b98f-6ba9fa92d53b
 langcode: fr
 status: true
 dependencies:
@@ -7,12 +7,14 @@ dependencies:
     - node.type.post
     - system.menu.main
     - taxonomy.vocabulary.category
+  content:
+    - 'taxonomy_term:category:eba8acc4-7598-4f7d-b7f8-ef530963e6c6'
   module:
     - node
     - taxonomy
     - user
-id: blog
-label: Blog
+id: portfolio
+label: Portfolio
 module: views
 description: ''
 tag: ''
@@ -25,7 +27,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: Blog
+      title: Portfolio
       fields:
         title:
           id: title
@@ -173,8 +175,9 @@ display:
           group_type: group
           admin_label: ''
           plugin_id: taxonomy_index_tid
-          operator: 'not empty'
-          value: {  }
+          operator: or
+          value:
+            1: 1
           group: 1
           exposed: false
           expose:
@@ -252,7 +255,7 @@ display:
       row:
         type: node_rss
       display_extenders: {  }
-      path: blog.xml
+      path: portfolio.xml
       displays:
         default: default
         page_1: page_1
@@ -272,13 +275,16 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: blog
+      path: portfolio
       menu:
         type: normal
-        title: Blog
-        weight: -48
+        title: Portfolio
+        description: ''
+        weight: -49
+        expanded: false
         menu_name: main
         parent: ''
+        context: '0'
     cache_metadata:
       max-age: -1
       contexts:
