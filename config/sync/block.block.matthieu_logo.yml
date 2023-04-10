@@ -1,0 +1,23 @@
+uuid: a03a69c2-a3e2-4cad-be42-4987bc31b137
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - matthieu
+id: matthieu_logo
+theme: matthieu
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Identité du site'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

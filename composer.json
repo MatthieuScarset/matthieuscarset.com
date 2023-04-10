@@ -1,6 +1,6 @@
 {
     "name": "matthieuscarset/drupal-template",
-    "description": "Project template for Drupal 9 projects with Composer",
+    "description": "My personal website.",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "authors": [
@@ -8,7 +8,7 @@
             "name": "Matthieu Scarset",
             "email": "m@matthieuscarset.com",
             "homepage": "https://matthieuscarset.com",
-            "role": "chicken trainer"
+            "role": "Drupalist"
         }
     ],
     "repositories": [
@@ -26,10 +26,7 @@
         "drush/drush": "^11.4.0",
         "vlucas/phpdotenv": "^5.1",
         "webflo/drupal-finder": "^1.2",
-        "drupal/config_ignore": "^2.3",
-        "drupal/config_split": "^1.7",
-        "drupal/core-project-message": "^10",
-        "drupal/shield": "^1.7"
+        "drupal/core-project-message": "^10"
     },
     "require-dev": {
         "drupal/core-dev": "^10",

@@ -1,0 +1,15 @@
+name: Matthieu
+type: theme
+base theme: claro
+description: 'My custom theme.'
+package: Custom
+version: VERSION
+core_version_requirement: ^10
+libraries:
+  - matthieu/global
+
+regions:
+  header: Header
+  breadcrumb: Breadcrumb
+  content: Content
+  footer: Footer

@@ -1,14 +1,14 @@
 _core:
   default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
-langcode: en
-uuid: 38dd17d2-5990-4904-b4a8-272b7ce6dbf4
-name: 'Drush Site-Install'
-mail: admin@example.com
-slogan: ''
+langcode: fr
+uuid: b6ba0ee3-9d3e-426e-8fb9-f4bccb61995b
+name: Matthieu
+mail: m@matthieuscarset.com
+slogan: 'Expert Drupal, pour vous servir.'
 page:
   403: ''
   404: ''
-  front: /user/login
+  front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
-default_langcode: en
+default_langcode: fr

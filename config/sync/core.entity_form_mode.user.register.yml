@@ -1,5 +1,5 @@
-uuid: 3f35be75-8935-48bb-99aa-7fc85cbf8ea1
-langcode: en
+uuid: 70a0f812-a92b-4662-872d-dfc6e99ad372
+langcode: fr
 status: true
 dependencies:
   module:
@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: flXhTcp55yLcyy7ZLOhPGKGZobZQJdkAFVWV3LseiuI
 id: user.register
-label: Register
+label: "S'inscrire"
 targetEntityType: user
 cache: true

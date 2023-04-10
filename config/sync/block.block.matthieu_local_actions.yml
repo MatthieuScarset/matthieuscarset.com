@@ -1,0 +1,20 @@
+uuid: 22988f75-471d-4160-bda8-eb6d8d3c9a0b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - matthieu
+_core:
+  default_config_hash: CdXfDmRgAvms7EQovxxWPdYi0GitxeRbVtScYK16ZH0
+id: matthieu_local_actions
+theme: matthieu
+region: content
+weight: -1
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

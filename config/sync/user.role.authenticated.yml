@@ -1,14 +1,16 @@
-uuid: 28870941-dcad-4b07-8e1b-6f4458f3718f
-langcode: en
+uuid: a1449bb4-266e-45ef-8c5f-806993d2ffe6
+langcode: fr
 status: true
 dependencies:
   module:
+    - media
     - system
 _core:
   default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
 id: authenticated
-label: 'Authenticated user'
+label: 'Utilisateur authentifié'
 weight: 1
 is_admin: false
 permissions:
   - 'access content'
+  - 'view media'

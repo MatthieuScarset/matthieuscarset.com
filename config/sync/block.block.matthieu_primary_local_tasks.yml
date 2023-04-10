@@ -1,0 +1,22 @@
+uuid: 2c1c94ae-0513-4a2d-a501-857f38a02d91
+langcode: en
+status: true
+dependencies:
+  theme:
+    - matthieu
+_core:
+  default_config_hash: ACjBZI5shAMiiUpsz-inLYVXDqNNXRnSzAWV3kV_8Hw
+id: matthieu_primary_local_tasks
+theme: matthieu
+region: content
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

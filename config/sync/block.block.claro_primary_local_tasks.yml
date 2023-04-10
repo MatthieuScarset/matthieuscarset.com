@@ -1,5 +1,5 @@
-uuid: 3f755326-a019-4cec-b1eb-5970f02c5e7f
-langcode: en
+uuid: 2c6c99a5-7edd-48bb-b79c-f0df6b147d4a
+langcode: fr
 status: true
 dependencies:
   theme:
@@ -9,12 +9,12 @@ _core:
 id: claro_primary_local_tasks
 theme: claro
 region: header
-weight: 0
+weight: -1
 provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: 'Primary tabs'
+  label: 'Onglets principaux'
   label_display: '0'
   provider: core
   primary: true
