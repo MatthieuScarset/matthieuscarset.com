@@ -1,0 +1,29 @@
+uuid: 8a94a089-c110-4662-84e8-a336fae3ca87
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.image
+    - media.type.image
+    - node.type.post
+id: node.post.image
+field_name: image
+entity_type: node
+bundle: post
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

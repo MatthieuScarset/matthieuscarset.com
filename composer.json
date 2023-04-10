@@ -22,11 +22,12 @@
         "composer/installers": "^2.1",
         "cweagans/composer-patches": "^1.7",
         "drupal/core-composer-scaffold": "^10.0.0",
+        "drupal/core-project-message": "^10",
         "drupal/core-recommended": "^10.0.0",
+        "drupal/tome": "^1.11",
         "drush/drush": "^11.4.0",
         "vlucas/phpdotenv": "^5.1",
-        "webflo/drupal-finder": "^1.2",
-        "drupal/core-project-message": "^10"
+        "webflo/drupal-finder": "^1.2"
     },
     "require-dev": {
         "drupal/core-dev": "^10",

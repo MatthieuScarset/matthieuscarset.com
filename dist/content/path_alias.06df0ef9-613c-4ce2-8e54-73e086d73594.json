@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "06df0ef9-613c-4ce2-8e54-73e086d73594"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/3f51ed82-6e46-4e49-82bb-8b9705bc2700"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/blog\/calendar-view"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

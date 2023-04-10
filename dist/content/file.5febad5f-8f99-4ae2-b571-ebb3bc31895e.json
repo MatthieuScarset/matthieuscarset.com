@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "5febad5f-8f99-4ae2-b571-ebb3bc31895e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "filename": [
+        {
+            "value": "calendar_view.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2023-04\/calendar_view.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 74537
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-04-10T16:30:32+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-04-10T16:31:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
