@@ -1,0 +1,92 @@
+{
+    "uuid": [
+        {
+            "value": "cd4ac39c-231e-46f7-9cab-f58bd50f6e1a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image",
+            "target_type": "media_type",
+            "target_uuid": "0b595087-6f87-4b25-98ef-cf6d9f57c057"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-04-19T14:36:27+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "name": [
+        {
+            "value": "resa-plus.com"
+        }
+    ],
+    "thumbnail": [
+        {
+            "alt": "Resa Plus",
+            "title": null,
+            "width": 1196,
+            "height": 760,
+            "target_type": "file",
+            "target_uuid": "f7c343a3-ce7f-43be-a6ef-0f7830c877ca"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-04-19T14:36:16+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-04-19T14:36:16+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "fr"
+        }
+    ],
+    "field_media_image": [
+        {
+            "alt": "Resa Plus",
+            "title": "",
+            "width": 1196,
+            "height": 760,
+            "target_type": "file",
+            "target_uuid": "f7c343a3-ce7f-43be-a6ef-0f7830c877ca"
+        }
+    ]
+}

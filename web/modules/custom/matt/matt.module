@@ -1,0 +1,52 @@
+<?php
+
+use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+use Drupal\node\NodeInterface;
+use Drupal\taxonomy\TermInterface;
+
+// @todo Preprocess categories field to remove Porffolio (1) from value.
+
+/**
+ * Implements hook_ENTITY_TYPE_view().
+ */
+function matt_taxonomy_term_view(array &$build, TermInterface $term, EntityViewDisplayInterface $display, $view_mode) {
+  // Render the contextualized View.
+  if ($view_mode == 'full') {
+    $build['content'] = views_embed_view('categories', 'default', $term->id());
+  }
+}
+
+/**
+ * Implements hook_ENTITY_TYPE_view().
+ */
+function matt_node_view(array &$build, NodeInterface $node, EntityViewDisplayInterface $display, $view_mode) {
+  $storage = \Drupal::entityTypeManager()->getStorage('node');
+
+  // Load previous portfolio post.
+  $nids = $storage->getQuery()
+    ->condition('created', $node->get('created')->getString(), '<')
+    ->condition('categories', ['1'], 'IN')
+    ->condition('status', 1)
+    ->sort('created', 'DESC')
+    ->accessCheck(FALSE)
+    ->range(0, 1)
+    ->execute();
+
+    if ($previous = (!empty($nids) ? $storage->load(reset($nids)) : NULL)) {
+    $build['#previous'] = $previous;
+  }
+
+  // Load next portfolio post.
+  $nids = $storage->getQuery()
+    ->condition('created', $node->get('created')->getString(), '>')
+    ->condition('categories', ['1'], 'IN')
+    ->condition('status', 1)
+    ->sort('created', 'ASC')
+    ->accessCheck(FALSE)
+    ->range(0, 1)
+    ->execute();
+
+  if ($next = (!empty($nids) ? $storage->load(reset($nids)) : NULL)) {
+    $build['#next'] = $next;
+  }
+}

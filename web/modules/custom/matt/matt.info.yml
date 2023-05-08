@@ -1,0 +1,8 @@
+name: Matt
+type: module
+description: 'Provides custom things for this site.'
+package: Custom
+version: VERSION
+core_version_requirement: ^10
+dependencies:
+  - drupal:taxonomy

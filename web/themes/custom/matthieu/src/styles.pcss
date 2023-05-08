@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  input {
+    @apply border border-gray-500
+  }
+
+  a[target="_blank"] {
+    @apply cursor-nesw-resize
+  }
+}
+
+@layer components {
+  .block,
+  .node {
+    @apply mb-4
+  }
+
+  .node__content p,
+  .node__content ul,
+  .node__content ol {
+    @apply mb-4 leading-normal
+  }
+
+  [id$="-local-tasks"] ul {
+    @apply flex gap-2 py-2
+  }
+  [id$="-local-tasks"] a {
+    @apply inline-block p-1 font-medium text-gray-700 border-b-2
+  }
+  [id$="-local-tasks"] a:hover,
+  [id$="-local-tasks"] a.is-active {
+    @apply border-b-blue-500
+  }
+
+  /** Header **/
+  .page-header [role="navigation"] ul {
+    @apply flex flex-col md:flex-row gap-4 items-center
+  }
+  .page-header [role="navigation"] a {
+    @apply inline-block p-1 font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500
+  }
+  .page-header [role="navigation"] a:hover,
+  .page-header [role="navigation"] a.is-active {
+    @apply bg-blue-500 hover:bg-blue-400 text-white rounded rounded-bl-none rounded-br-none
+  }
+
+  /** Footer **/
+  .page-footer [role="navigation"] ul {
+    @apply flex gap-4 items-center
+  }
+  .page-footer [role="navigation"] a {
+    @apply inline-block p-1 font-medium text-gray-700 border-b-2 hover:border-b-blue-500
+  }
+  .page-footer [role="navigation"] a.is-active {
+    @apply border-b-blue-500
+  }
+}

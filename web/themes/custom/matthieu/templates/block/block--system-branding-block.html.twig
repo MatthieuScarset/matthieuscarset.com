@@ -1,0 +1,17 @@
+<div class="flex gap-2 items-end">
+	{% if site_logo %}
+		<a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home" class="site-logo">
+			<img src="{{ site_logo }}" alt="{{ 'Home'|t }}" class="max-w-[5rem]" />
+		</a>
+	{% endif %}
+	<div class="flex flex-col gap-1 pb-2">
+		{% if site_name %}
+			<div class="text-2xl font-bold site-name">
+				<a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a>
+			</div>
+		{% endif %}
+		{% if site_slogan %}
+			<div class="site-slogan">{{ site_slogan }}</div>
+		{% endif %}
+	</div>
+</div>

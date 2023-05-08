@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "7fc72c75-dc37-4163-82d8-ba9444e0bce5"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/1"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/portfolio"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

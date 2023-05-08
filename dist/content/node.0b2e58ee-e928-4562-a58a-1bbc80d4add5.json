@@ -1,0 +1,116 @@
+{
+    "uuid": [
+        {
+            "value": "0b2e58ee-e928-4562-a58a-1bbc80d4add5"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "post",
+            "target_type": "node_type",
+            "target_uuid": "57db4c37-96d3-47d3-a8a0-f65d06fb3731"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-04-19T11:10:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "title": [
+        {
+            "value": "Resa Plus"
+        }
+    ],
+    "created": [
+        {
+            "value": "2010-06-01T00:00:00+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-04-19T16:19:24+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "fr"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Un de mes premiers projets. Le site est bas\u00e9 sur un template payant avec du Flash personnalis\u00e9 - oh ouais ! - pour le curseur d'accueil et la barre de navigation.<\/p><p>J'ai modifi\u00e9 du contenu et des images mais ma principale r\u00e9alisation ici a \u00e9t\u00e9 d'int\u00e9grer&nbsp;un formulaire en ligne avec la passerelle de paiement PayPal.<\/p><p>Ce nouveau service a contribu\u00e9 \u00e0 am\u00e9liorer les performances globales du centre d'appels. L'entreprise a ainsi pu &nbsp;fournir un service plus rapide, de meilleurs r\u00e9sultats et une satisfaction client encore plus grande.<\/p><p>C'\u00e9tait gagnant-gagnant.<\/p>",
+            "format": "html",
+            "summary": "Un site bas\u00e9 sur un template payant avec du Flash dedans."
+        }
+    ],
+    "categories": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "eba8acc4-7598-4f7d-b7f8-ef530963e6c6"
+        }
+    ],
+    "image": [
+        {
+            "target_type": "media",
+            "target_uuid": "cd4ac39c-231e-46f7-9cab-f58bd50f6e1a"
+        }
+    ]
+}

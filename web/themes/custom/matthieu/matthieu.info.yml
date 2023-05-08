@@ -1,12 +1,10 @@
 name: Matthieu
-type: theme
-base theme: claro
-description: 'My custom theme.'
-package: Custom
-version: VERSION
+description: 'My custom theme'
 core_version_requirement: ^10
+type: theme
+base theme: false
 libraries:
-  - matthieu/global
+  - matthieu/global-styling
 
 regions:
   header: Header

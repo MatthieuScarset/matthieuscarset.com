@@ -18,7 +18,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 10
+    weight: 11
     region: content
     settings:
       rows: 9
@@ -28,7 +28,7 @@ content:
     third_party_settings: {  }
   categories:
     type: entity_reference_autocomplete
-    weight: 26
+    weight: 9
     region: content
     settings:
       match_operator: CONTAINS
@@ -44,7 +44,7 @@ content:
     third_party_settings: {  }
   image:
     type: media_library_widget
-    weight: 9
+    weight: 10
     region: content
     settings:
       media_types: {  }

@@ -52,7 +52,7 @@
     ],
     "changed": [
         {
-            "value": "2023-04-10T22:18:57+00:00",
+            "value": "2023-04-19T16:09:22+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -68,8 +68,7 @@
     ],
     "path": [
         {
-            "alias": null,
-            "pid": null,
+            "alias": "\/portfolio",
             "langcode": "fr"
         }
     ],

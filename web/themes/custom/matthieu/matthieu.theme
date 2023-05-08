@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Contains hook and preprocess for this theme.
+ */
+
+use Drupal\Core\Render\Element;
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function matthieu_preprocess_menu(&$variables) {
+  foreach (Element::children($variables['items']) as $key) {
+    $url = &$variables['items'][$key]['url'];
+    if ($url->isExternal()) {
+      $attributes = $url->getOption('attributes') ?? [];
+      $attributes['target'] = '_blank';
+      $url->setOption('attributes', $attributes);
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+    "uuid": [
+        {
+            "value": "17eb6a67-35a8-4e8b-9341-2e9bfbafcebb"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "post",
+            "target_type": "node_type",
+            "target_uuid": "57db4c37-96d3-47d3-a8a0-f65d06fb3731"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-04-19T11:22:36+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "title": [
+        {
+            "value": "Mus\u00e9e du Compagnonnage de Tours"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-01-01T00:00:00+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-04-19T16:29:57+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "fr"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false
+        }
+    ],
+    "body": [],
+    "categories": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "eba8acc4-7598-4f7d-b7f8-ef530963e6c6"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "5ceb8650-7e1a-4020-b282-b0458748cd2a"
+        }
+    ],
+    "image": []
+}

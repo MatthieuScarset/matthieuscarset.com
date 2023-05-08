@@ -1,0 +1,105 @@
+{
+    "uuid": [
+        {
+            "value": "e5529250-a0e8-44a3-b932-f398546b3aee"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "post",
+            "target_type": "node_type",
+            "target_uuid": "57db4c37-96d3-47d3-a8a0-f65d06fb3731"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-04-19T11:20:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "title": [
+        {
+            "value": "Korian"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-04-01T00:00:00+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-04-19T16:27:52+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "fr"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false
+        }
+    ],
+    "body": [],
+    "categories": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "eba8acc4-7598-4f7d-b7f8-ef530963e6c6"
+        }
+    ],
+    "image": []
+}

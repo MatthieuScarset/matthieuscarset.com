@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "8f67c001-f42f-42ec-99aa-e099ec31359e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "filename": [
+        {
+            "value": "restotel_homepage.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2023-05\/restotel_homepage.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 598451
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-08T02:12:54+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-05-08T02:12:57+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

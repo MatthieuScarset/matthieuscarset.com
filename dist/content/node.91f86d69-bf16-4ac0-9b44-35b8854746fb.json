@@ -1,0 +1,127 @@
+{
+    "uuid": [
+        {
+            "value": "91f86d69-bf16-4ac0-9b44-35b8854746fb"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "post",
+            "target_type": "node_type",
+            "target_uuid": "57db4c37-96d3-47d3-a8a0-f65d06fb3731"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-04-19T11:19:56+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "title": [
+        {
+            "value": "Avalere 360"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-12-01T00:00:00+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-05-08T01:27:40+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/portfolio\/d7-avalere-360",
+            "langcode": "fr"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false
+        }
+    ],
+    "body": [
+        {
+            "value": "<p style=\"-webkit-text-stroke-width:0px;color:rgb(0, 0, 0);font-family:sans-serif;font-size:medium;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\">Maintenance \u00e9volutive d'une plateforme d'automation marketing et d'outils d'analyse de traffic, en Drupal 7.<\/p><p style=\"-webkit-text-stroke-width:0px;color:rgb(0, 0, 0);font-family:sans-serif;font-size:medium;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\">Impl\u00e9mentation d'un outil de g\u00e9n\u00e9ration de PDF et d'un <em>espace membre<\/em> avec du contenu priv\u00e9.<\/p>",
+            "format": "html",
+            "summary": ""
+        }
+    ],
+    "categories": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "eba8acc4-7598-4f7d-b7f8-ef530963e6c6"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "336280fe-10a5-43a5-8caf-445f7b3f61ab"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "42563851-cead-4ed2-9ee7-49212f2b096d"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "481b3f1d-117e-486f-8510-3e19942a2564"
+        }
+    ],
+    "image": [
+        {
+            "target_type": "media",
+            "target_uuid": "fd58d181-523f-4cce-9e8c-34531610984f"
+        }
+    ]
+}

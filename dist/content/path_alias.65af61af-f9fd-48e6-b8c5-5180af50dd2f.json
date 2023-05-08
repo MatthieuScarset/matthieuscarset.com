@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "65af61af-f9fd-48e6-b8c5-5180af50dd2f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/8"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/acquia-cloud"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

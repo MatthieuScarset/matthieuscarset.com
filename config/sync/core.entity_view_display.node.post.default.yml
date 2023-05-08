@@ -6,8 +6,10 @@ dependencies:
     - field.field.node.post.body
     - field.field.node.post.categories
     - field.field.node.post.image
+    - image.style.large
     - node.type.post
   module:
+    - media
     - text
     - user
 id: node.post.default
@@ -20,17 +22,27 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 1
+    weight: 2
     region: content
   categories:
     type: entity_reference_label
-    label: above
+    label: inline
     settings:
       link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  image:
+    type: media_thumbnail
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: large
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
     weight: 0
     region: content
 hidden:
-  image: true
   langcode: true
   links: true

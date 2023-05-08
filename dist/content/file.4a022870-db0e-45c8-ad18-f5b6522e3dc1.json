@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "4a022870-db0e-45c8-ad18-f5b6522e3dc1"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "filename": [
+        {
+            "value": "incentives_mallorca_hp.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2023-05\/incentives_mallorca_hp_0.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 474008
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-08T02:00:58+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-05-08T02:01:03+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

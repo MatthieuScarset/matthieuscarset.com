@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "abe0c952-2d50-4b17-ac46-0a1d12acdef3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/91f86d69-bf16-4ac0-9b44-35b8854746fb"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/portfolio\/d7-avalere-360"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

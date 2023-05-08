@@ -9,7 +9,7 @@ _core:
 id: matthieu_local_actions
 theme: matthieu
 region: content
-weight: -1
+weight: -4
 provider: null
 plugin: local_actions_block
 settings:

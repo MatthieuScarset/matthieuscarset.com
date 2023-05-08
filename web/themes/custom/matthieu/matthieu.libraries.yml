@@ -1,5 +1,4 @@
-global:
-  version: VERSION
+global-styling:
   css:
-    component:
-      css/styles.css: {}
+    base:
+      dist/styles.css: {}

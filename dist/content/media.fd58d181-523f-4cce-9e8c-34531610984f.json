@@ -1,0 +1,92 @@
+{
+    "uuid": [
+        {
+            "value": "fd58d181-523f-4cce-9e8c-34531610984f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image",
+            "target_type": "media_type",
+            "target_uuid": "0b595087-6f87-4b25-98ef-cf6d9f57c057"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-05-08T01:22:08+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "name": [
+        {
+            "value": "avalere_homepage.png"
+        }
+    ],
+    "thumbnail": [
+        {
+            "alt": "Capture d'\u00e9cran de la page d'accueil de Avalere 360",
+            "title": null,
+            "width": 1424,
+            "height": 779,
+            "target_type": "file",
+            "target_uuid": "3b9a25d4-264d-4f32-9979-2de47e658b25"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-08T01:21:46+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-05-08T01:21:46+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "fr"
+        }
+    ],
+    "field_media_image": [
+        {
+            "alt": "Capture d'\u00e9cran de la page d'accueil de Avalere 360",
+            "title": "",
+            "width": 1424,
+            "height": 779,
+            "target_type": "file",
+            "target_uuid": "3b9a25d4-264d-4f32-9979-2de47e658b25"
+        }
+    ]
+}
