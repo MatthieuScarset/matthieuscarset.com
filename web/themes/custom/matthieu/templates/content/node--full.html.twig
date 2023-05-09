@@ -1,0 +1,13 @@
+{% extends "node.html.twig" %}
+
+{% block content %}
+	<div class="flex flex-col gap-16 md:flex-row">
+    <div class="image w-1/4">
+      {{ content.image }}
+    </div>
+
+		<div class="content flex flex-col gap-4">
+      {{ content|without('image') }}
+		</div>
+	</div>
+{% endblock %}

@@ -1,0 +1,31 @@
+{%
+  set classes = [
+    'field',
+    'field--name-' ~ field_name|clean_class,
+    'field--type-' ~ field_type|clean_class,
+    'field--label-' ~ label_display,
+    label_display == 'inline' ? 'clearfix',
+  ]
+%}
+<div{{attributes.addClass(classes)}}>
+	{% if label_display == 'inline' %}
+		<div class="flex flex-col gap-4 md:flex-row">
+  {% endif %}
+
+		<div{{title_attributes.addClass(label_display)}}>
+			{% if label_display == 'inline' %}
+        {{ '@label:'|t({'@label': label}) }}
+      {% else %}
+        {{ label }}
+      {% endif %}
+		</div>
+
+		{% if label_display != 'inline' %}
+			<div class="flex flex-col gap-4 md:flex-row">
+    {% endif %}
+
+    {% for item in items %}
+      <div {{ item.attributes}}>{{ item.content }}</div>
+    {% endfor %}
+  </div>
+</div>

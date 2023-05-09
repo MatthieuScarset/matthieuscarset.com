@@ -32,8 +32,7 @@
         "webflo/drupal-finder": "^1.2"
     },
     "require-dev": {
-        "drupal/core-dev": "^10",
-        "drupal/devel": "^5.1"
+        "drupal/core-dev": "^10"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -94,6 +93,9 @@
             "drupal/core": "-p2"
         },
         "patches": {
+            "drupal/core": {
+                "Add class Twig filter": "https://www.drupal.org/files/issues/2023-04-19/3301853-53.patch"
+            }
         }
     }
 }

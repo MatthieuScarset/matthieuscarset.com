@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-05-08T01:27:40+00:00",
+            "value": "2023-05-08T23:40:42+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -95,7 +95,7 @@
     ],
     "body": [
         {
-            "value": "<p style=\"-webkit-text-stroke-width:0px;color:rgb(0, 0, 0);font-family:sans-serif;font-size:medium;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\">Maintenance \u00e9volutive d'une plateforme d'automation marketing et d'outils d'analyse de traffic, en Drupal 7.<\/p><p style=\"-webkit-text-stroke-width:0px;color:rgb(0, 0, 0);font-family:sans-serif;font-size:medium;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\">Impl\u00e9mentation d'un outil de g\u00e9n\u00e9ration de PDF et d'un <em>espace membre<\/em> avec du contenu priv\u00e9.<\/p>",
+            "value": "<p>Maintenance \u00e9volutive d'une plateforme d'automation marketing et d'outils d'analyse de traffic, en Drupal 7.<\/p><p>Impl\u00e9mentation d'un outil de g\u00e9n\u00e9ration de PDF et d'un <em>espace membre<\/em> avec du contenu priv\u00e9.<\/p>",
             "format": "html",
             "summary": ""
         }
