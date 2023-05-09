@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-04-19T16:36:28+00:00",
+            "value": "2023-05-09T23:36:01+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -94,7 +94,13 @@
             "value": false
         }
     ],
-    "body": [],
+    "body": [
+        {
+            "value": "<p>D\u00e9veloppement d'un module pour int\u00e9grer les NFTs dans Drupal en tant que m\u00e9dia et avoir la possibilit\u00e9 de <em>Minter<\/em> un \"token non-fongible\" depuis n'importe quelle entit\u00e9 d'un site Drupal (e.g. c'est-\u00e0-dire Publier un NFT sur une blockchain en gros).<\/p><p>Gagnant d'un prix lors du NFTHack 2022 organis\u00e9 par ETHGlobal.<\/p><p>Voir <a href=\"https:\/\/ethglobal.com\/showcase\/drupal-nft-nz1bv\">le projet sur la page du Hackathon<\/a> et <a href=\"https:\/\/www.drupal.org\/project\/nft\">le projet sur drupal.org<\/a>.<\/p>",
+            "format": "html",
+            "summary": ""
+        }
+    ],
     "categories": [
         {
             "target_type": "taxonomy_term",
@@ -107,7 +113,32 @@
         {
             "target_type": "taxonomy_term",
             "target_uuid": "eba8acc4-7598-4f7d-b7f8-ef530963e6c6"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "ef338556-b900-4ddd-a64c-d4876a4b4c4f"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "0a12aa63-9a28-4cd1-8e31-12518cf4d1d8"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "72765270-4836-4299-8647-82eae3fc962c"
         }
     ],
-    "image": []
+    "image": [
+        {
+            "target_type": "media",
+            "target_uuid": "60628fa1-213f-45d2-9041-7b0ab163bc20"
+        },
+        {
+            "target_type": "media",
+            "target_uuid": "0bc7ce54-7f43-44ba-93ba-ca2f00007ce2"
+        },
+        {
+            "target_type": "media",
+            "target_uuid": "f71818ec-43ca-4c0f-b4e7-0add94f63004"
+        }
+    ]
 }

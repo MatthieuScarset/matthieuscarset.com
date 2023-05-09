@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-05-08T02:08:23+00:00",
+            "value": "2023-05-09T15:56:58+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -79,7 +79,8 @@
     ],
     "path": [
         {
-            "alias": "\/portfolio\/wp-incentives-mallorca",
+            "alias": null,
+            "pid": null,
             "langcode": "fr"
         }
     ],
@@ -114,6 +115,10 @@
         {
             "target_type": "media",
             "target_uuid": "20bd1f73-95d6-42dc-9dd6-294e597e0adb"
+        },
+        {
+            "target_type": "media",
+            "target_uuid": "7f2aedc8-6759-4a6c-b98d-7703c16bbe26"
         }
     ]
 }

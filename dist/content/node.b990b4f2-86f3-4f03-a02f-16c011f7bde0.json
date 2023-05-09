@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-04-19T16:23:11+00:00",
+            "value": "2023-05-09T15:56:38+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -94,12 +94,35 @@
             "value": false
         }
     ],
-    "body": [],
+    "body": [
+        {
+            "value": "<p>Personnalisation avanc\u00e9e d'un th\u00e8me WordPress payant pour ce site vitrine dynamique. D\u00e9veloppement de formulaire de r\u00e9servation et impl\u00e9mentation d'un espace membre avec acc\u00e8s \u00e0 des contenus priv\u00e9s et un programme de parrainage construit sur des sous site, en multilingue et multidomaine. Gros travail d'optimisation SEO pour occuper la plus grande place possible dans les premiers r\u00e9sultats de recherceh.<\/p>",
+            "format": "html",
+            "summary": ""
+        }
+    ],
     "categories": [
         {
             "target_type": "taxonomy_term",
             "target_uuid": "eba8acc4-7598-4f7d-b7f8-ef530963e6c6"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "6d39fe5b-3b26-4f3e-8302-452cb849edf9"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "e432f179-0061-48f8-bba0-9df86e42d262"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "a6e63141-0d7b-4bd4-b86f-8522f76eda0d"
         }
     ],
-    "image": []
+    "image": [
+        {
+            "target_type": "media",
+            "target_uuid": "9e9ab74b-7916-4874-af32-82c50f22e955"
+        }
+    ]
 }

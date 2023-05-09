@@ -2,17 +2,17 @@
 
 {% block content %}
 	<div class="group relative max-w-sm overflow-hidden bg-white border border-gray-200 rounded-lg shadow h-full">
-		<div class="relative p-5 z-10 bg-gradient-to-b from-white to-transparent bg-blend-multiply">
-      <h2 class="mb-2 text-2xl font-bold tracking-tight transition-all text-blue-900 group-hover:text-green-900">
+		<div class="relative p-5 z-10">
+      <h2 class="mb-2 p-2 text-lg font-bold border-b-4 border-gray-200 rounded transition-all text-blue-900 group-hover:bg-blue-900 group-hover:text-white group-hover:border-transparent">
         <a href="{{ url }}" class="after:content-['_'] after:absolute after:inset-0 after:m-auto" title="{{ 'Read more about this project'|t }}">
           {{ label }}
         </a>
       </h2>
-			<div class="mb-3 font-normal text-gray-700 dark:text-gray-400 text invisible group-hover:visible">
+			<div class="mb-3 font-normal text-gray-700 dark:text-gray-400 text group-hover:invisible">
         {{ content.body }}
       </div>
 		</div>
-    <div class="image absolute inset-0 mx-auto z-0 h-fit transition-all group-hover:opacity-0">
+    <div class="image absolute inset-0 mx-auto z-0 h-fit transition-all opacity-10 group-hover:opacity-80">
 		  {{ content.image }}
 		</div>
 	</div>

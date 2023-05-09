@@ -1,0 +1,92 @@
+{
+    "uuid": [
+        {
+            "value": "9e9ab74b-7916-4874-af32-82c50f22e955"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image",
+            "target_type": "media_type",
+            "target_uuid": "0b595087-6f87-4b25-98ef-cf6d9f57c057"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-05-09T01:48:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "name": [
+        {
+            "value": "wp_subtheme.png"
+        }
+    ],
+    "thumbnail": [
+        {
+            "alt": "Capture d'\u00e9cran de la page d'accueil de Eurotelgroup.com",
+            "title": null,
+            "width": 1839,
+            "height": 876,
+            "target_type": "file",
+            "target_uuid": "316dcf05-dbf7-4396-a9ee-721ebadd1fff"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-09T01:47:56+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-05-09T01:47:56+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "fr"
+        }
+    ],
+    "field_media_image": [
+        {
+            "alt": "Capture d'\u00e9cran de la page d'accueil de Eurotelgroup.com",
+            "title": "",
+            "width": 1839,
+            "height": 876,
+            "target_type": "file",
+            "target_uuid": "316dcf05-dbf7-4396-a9ee-721ebadd1fff"
+        }
+    ]
+}

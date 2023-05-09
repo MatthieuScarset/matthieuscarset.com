@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-04-19T16:21:23+00:00",
+            "value": "2023-05-09T15:57:19+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -94,12 +94,31 @@
             "value": false
         }
     ],
-    "body": [],
+    "body": [
+        {
+            "value": "<p>Responsive web design avec Compass et SASS sur un site Drupal 7 avec Drupal Commerce. Int\u00e9gration d'un produit <em>Abonnement <\/em>avec capture de paiement r\u00e9current.<\/p>",
+            "format": "html",
+            "summary": ""
+        }
+    ],
     "categories": [
         {
             "target_type": "taxonomy_term",
             "target_uuid": "eba8acc4-7598-4f7d-b7f8-ef530963e6c6"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "5ceb8650-7e1a-4020-b282-b0458748cd2a"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "336280fe-10a5-43a5-8caf-445f7b3f61ab"
         }
     ],
-    "image": []
+    "image": [
+        {
+            "target_type": "media",
+            "target_uuid": "cc0aeb22-4455-4d01-a65f-83e49dc51101"
+        }
+    ]
 }

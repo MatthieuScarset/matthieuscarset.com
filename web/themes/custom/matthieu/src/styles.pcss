@@ -15,6 +15,10 @@
   a[target="_blank"] {
     @apply cursor-nesw-resize;
   }
+
+  p {
+    @apply mb-4 leading-normal;
+  }
 }
 
 @layer components {
@@ -23,10 +27,8 @@
     @apply mb-4;
   }
 
-  .node__content p,
-  .node__content ul,
-  .node__content ol {
-    @apply mb-4 leading-normal;
+  .post.full .content a {
+    @apply text-gray-700 border-b-2 hover:border-b-green-900;
   }
 
   /** Local tasks **/
@@ -58,18 +60,13 @@
     @apply flex gap-4 items-center;
   }
   .page-footer [role="navigation"] a {
-    @apply inline-block p-1 font-medium text-gray-700 border-b-2 hover:border-b-blue-500;
+    @apply inline-block p-1 font-medium text-gray-700 border-b-2 hover:border-b-green-900;
   }
   .page-footer [role="navigation"] a.is-active {
     @apply border-b-blue-500;
   }
 
-  /** Block title **/
-  .page-title {
-    @apply text-4xl font-bold text-blue-900 mb-4
-  }
-
-  /** Post teaser **/
+  /** Portfolio **/
   .view-categories .view-content {
     @apply grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5;
   }
@@ -77,7 +74,22 @@
   .view-categories .views-row .relative {
     @apply min-h-max h-full;
   }
-}
 
-@layer utilities {
+  .view-filters form {
+    @apply flex gap-2
+  }
+  .view-filters .fieldset-wrapper {
+    display: flex
+  }
+  .view-filters input[type="submit"] {
+    @apply inline-block p-1 font-bold py-2 px-4
+  }
+  .view-filters input[type="submit"]:hover {
+    @apply bg-blue-500 hover:bg-blue-400 text-white rounded rounded-bl-none rounded-br-none
+  }
+
+  .image {
+    @apply rounded overflow-hidden
+  }
+
 }

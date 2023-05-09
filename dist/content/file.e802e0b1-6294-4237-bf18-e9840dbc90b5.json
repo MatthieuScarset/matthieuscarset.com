@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "e802e0b1-6294-4237-bf18-e9840dbc90b5"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "filename": [
+        {
+            "value": "femininbio_promo_page.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2023-05\/femininbio_promo_page.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 215768
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-09T15:54:25+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-05-09T15:54:33+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

@@ -7,7 +7,7 @@ dependencies:
     - field.field.node.post.body
     - field.field.node.post.categories
     - field.field.node.post.image
-    - image.style.large
+    - image.style.teaser
     - node.type.post
   module:
     - media
@@ -44,7 +44,7 @@ content:
     label: hidden
     settings:
       image_link: ''
-      image_style: large
+      image_style: teaser
       image_loading:
         attribute: lazy
     third_party_settings: {  }

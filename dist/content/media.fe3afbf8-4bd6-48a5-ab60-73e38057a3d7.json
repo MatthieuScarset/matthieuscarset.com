@@ -1,0 +1,92 @@
+{
+    "uuid": [
+        {
+            "value": "fe3afbf8-4bd6-48a5-ab60-73e38057a3d7"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image",
+            "target_type": "media_type",
+            "target_uuid": "0b595087-6f87-4b25-98ef-cf6d9f57c057"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-05-09T15:28:00+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "name": [
+        {
+            "value": "challenge_soir_promo.png"
+        }
+    ],
+    "thumbnail": [
+        {
+            "alt": "Capture d'\u00e9cran de la page d'abonnement de L'Opinion",
+            "title": null,
+            "width": 1422,
+            "height": 777,
+            "target_type": "file",
+            "target_uuid": "d9a9d4e8-110a-4b46-8367-49ecb917093b"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-09T15:27:54+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-05-09T15:27:54+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "fr"
+        }
+    ],
+    "field_media_image": [
+        {
+            "alt": "Capture d'\u00e9cran de la page d'abonnement de L'Opinion",
+            "title": "",
+            "width": 1422,
+            "height": 777,
+            "target_type": "file",
+            "target_uuid": "d9a9d4e8-110a-4b46-8367-49ecb917093b"
+        }
+    ]
+}

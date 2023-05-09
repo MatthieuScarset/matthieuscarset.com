@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "37d7ea6f-9779-42c1-8d88-c1b9568f20d0"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "filename": [
+        {
+            "value": "sageglass_component.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2023-05\/sageglass_component.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 1552613
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-09T23:07:33+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-05-09T23:07:49+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

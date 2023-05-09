@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "2948f60d-2fb8-4f3a-8fbe-1e971af82f39"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "filename": [
+        {
+            "value": "drupal_nft_mint_form.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2023-05\/drupal_nft_mint_form.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 57524
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-09T23:31:37+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-05-09T23:31:44+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

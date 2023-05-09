@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "43cf6ae3-70a4-484f-9823-1be77e7e9e06"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "filename": [
+        {
+            "value": "ofw_page.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2023-05\/ofw_page.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 534989
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-09T23:02:52+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-05-09T23:02:56+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

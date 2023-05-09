@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-04-19T16:22:53+00:00",
+            "value": "2023-05-09T16:00:44+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -94,12 +94,39 @@
             "value": false
         }
     ],
-    "body": [],
+    "body": [
+        {
+            "value": "<p>Migration de Drupal 6 vers Drupal 7 et finalement Drupal 8. Maintenance et correctif en <em>back <\/em>et <em>front<\/em>. Int\u00e9gration conforme aux standards d'accessibilit\u00e9 niveau AA.<\/p>",
+            "format": "html",
+            "summary": ""
+        }
+    ],
     "categories": [
         {
             "target_type": "taxonomy_term",
             "target_uuid": "eba8acc4-7598-4f7d-b7f8-ef530963e6c6"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "08a3f90d-346c-48e6-9091-8a15ecfb8881"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "1e289189-397a-46fb-bb19-268cf226a087"
         }
     ],
-    "image": []
+    "image": [
+        {
+            "target_type": "media",
+            "target_uuid": "f34197d7-4e07-49c6-a171-d6b2cc9638e7"
+        },
+        {
+            "target_type": "media",
+            "target_uuid": "07f1fc20-ceda-44f4-8e64-444385a46714"
+        },
+        {
+            "target_type": "media",
+            "target_uuid": "9e7132ba-183e-41cc-98b0-3705d9497248"
+        }
+    ]
 }

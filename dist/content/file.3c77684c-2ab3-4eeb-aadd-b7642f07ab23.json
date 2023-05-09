@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "3c77684c-2ab3-4eeb-aadd-b7642f07ab23"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "filename": [
+        {
+            "value": "lopinion_promo_homepage.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2023-05\/lopinion_promo_homepage.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 223999
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-09T15:14:27+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-05-09T15:19:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

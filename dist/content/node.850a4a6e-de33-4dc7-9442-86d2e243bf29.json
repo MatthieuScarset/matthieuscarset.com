@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-04-19T16:33:55+00:00",
+            "value": "2023-05-09T23:11:28+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -94,7 +94,13 @@
             "value": false
         }
     ],
-    "body": [],
+    "body": [
+        {
+            "value": "<p>D\u00e9veloppement <em>from scratch<\/em> du nouveau site Drupal 9 de SageGlass. Int\u00e9gration responsive \u00e0 partir des maquettes InVision et construction de la biblioth\u00e8que de composants dans Storybook.<\/p><p>Project complet men\u00e9 \u00e0 distance en tant que prestataire pour <a href=\"https:\/\/ten7.com\/\">TEN7<\/a> au sein d'une \u00e9quipe internationale, distribu\u00e9e sur plusieurs fuseaux horaires.<\/p><p>Voir <a href=\"https:\/\/sageglass.com\/\">le site<\/a>.<\/p>",
+            "format": "html",
+            "summary": ""
+        }
+    ],
     "categories": [
         {
             "target_type": "taxonomy_term",
@@ -103,7 +109,28 @@
         {
             "target_type": "taxonomy_term",
             "target_uuid": "eba8acc4-7598-4f7d-b7f8-ef530963e6c6"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "08a3f90d-346c-48e6-9091-8a15ecfb8881"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "9f6301a7-d36e-47aa-b86c-3bb075b714e3"
         }
     ],
-    "image": []
+    "image": [
+        {
+            "target_type": "media",
+            "target_uuid": "7b34b6a4-87e1-4536-8ad2-c630267fbe8f"
+        },
+        {
+            "target_type": "media",
+            "target_uuid": "dc26de64-6e44-4f39-9ff3-9ef4d7320d5a"
+        },
+        {
+            "target_type": "media",
+            "target_uuid": "38ed235b-2d6a-4e72-a204-7c6f4c6fa875"
+        }
+    ]
 }

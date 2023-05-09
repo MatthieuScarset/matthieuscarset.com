@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-04-19T16:35:15+00:00",
+            "value": "2023-05-09T15:57:13+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -94,7 +94,13 @@
             "value": false
         }
     ],
-    "body": [],
+    "body": [
+        {
+            "value": "<p>Un plugin populaire pour importer et afficher des newsletters - aussi appel\u00e9es <em>Campagnes<\/em> - depuis MailChimp vers un site WordPress.<\/p><p>Voir <a href=\"https:\/\/wordpress.org\/plugins\/olalaweb-mailchimp-campaign-manager\/\">la page du plugin<\/a>.<\/p>",
+            "format": "html",
+            "summary": ""
+        }
+    ],
     "categories": [
         {
             "target_type": "taxonomy_term",
@@ -103,7 +109,28 @@
         {
             "target_type": "taxonomy_term",
             "target_uuid": "6d39fe5b-3b26-4f3e-8302-452cb849edf9"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "e9d3e67b-8baf-452b-80ac-7728d4b38bef"
         }
     ],
-    "image": []
+    "image": [
+        {
+            "target_type": "media",
+            "target_uuid": "6de1e239-ef65-4070-812a-22b40705031a"
+        },
+        {
+            "target_type": "media",
+            "target_uuid": "8bd22550-b5da-4340-8473-32cb8e2baae5"
+        },
+        {
+            "target_type": "media",
+            "target_uuid": "85f15345-9ea0-4340-9678-7f05955489a5"
+        },
+        {
+            "target_type": "media",
+            "target_uuid": "b1647a8d-50d3-4f03-aacb-01a16694dc83"
+        }
+    ]
 }

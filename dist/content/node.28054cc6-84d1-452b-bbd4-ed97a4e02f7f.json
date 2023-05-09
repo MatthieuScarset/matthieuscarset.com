@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-04-19T16:24:25+00:00",
+            "value": "2023-05-09T16:11:05+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -94,12 +94,27 @@
             "value": false
         }
     ],
-    "body": [],
+    "body": [
+        {
+            "value": "<p>D\u00e9veloppement du magazine avec WordPress et \u00e0 partir d'un th\u00e8me payant. Configuration des modules pour l'optimisation SEO et r\u00e9f\u00e9rencement naturelle.<\/p><p>Voir <a href=\"https:\/\/because-gus.com\/\">le site ici<\/a>.<\/p>",
+            "format": "html",
+            "summary": ""
+        }
+    ],
     "categories": [
         {
             "target_type": "taxonomy_term",
             "target_uuid": "eba8acc4-7598-4f7d-b7f8-ef530963e6c6"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "6d39fe5b-3b26-4f3e-8302-452cb849edf9"
         }
     ],
-    "image": []
+    "image": [
+        {
+            "target_type": "media",
+            "target_uuid": "398772e1-5d39-406c-b938-9830ef1dce13"
+        }
+    ]
 }

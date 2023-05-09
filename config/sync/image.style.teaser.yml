@@ -1,0 +1,17 @@
+uuid: 635c63de-2b82-47fb-958d-4306506bef72
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: LswCVLg8z4Zk1u6pV1Dpj1qUj5YY2CQ7_ojx7bJQ8qk
+name: teaser
+label: Teaser
+effects:
+  f40948e7-fee4-4971-9631-e8f331a9e913:
+    uuid: f40948e7-fee4-4971-9631-e8f331a9e913
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 480
+      height: 480
+      anchor: center-center

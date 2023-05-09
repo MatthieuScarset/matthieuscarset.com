@@ -1,0 +1,92 @@
+{
+    "uuid": [
+        {
+            "value": "dc26de64-6e44-4f39-9ff3-9ef4d7320d5a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image",
+            "target_type": "media_type",
+            "target_uuid": "0b595087-6f87-4b25-98ef-cf6d9f57c057"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-05-09T23:07:49+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "name": [
+        {
+            "value": "sageglass_hp.png"
+        }
+    ],
+    "thumbnail": [
+        {
+            "alt": "Capture d'\u00e9cran d'une page du site",
+            "title": null,
+            "width": 1852,
+            "height": 961,
+            "target_type": "file",
+            "target_uuid": "9559f64d-4cd1-4943-9353-3a095252b5e2"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-09T23:07:33+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-05-09T23:07:33+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "fr"
+        }
+    ],
+    "field_media_image": [
+        {
+            "alt": "Capture d'\u00e9cran d'une page du site",
+            "title": "",
+            "width": 1852,
+            "height": 961,
+            "target_type": "file",
+            "target_uuid": "9559f64d-4cd1-4943-9353-3a095252b5e2"
+        }
+    ]
+}

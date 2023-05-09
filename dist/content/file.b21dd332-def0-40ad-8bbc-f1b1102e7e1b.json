@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "b21dd332-def0-40ad-8bbc-f1b1102e7e1b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "filename": [
+        {
+            "value": "ggh_homepage.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2023-05\/ggh_homepage.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 1369147
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-09T01:55:36+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-05-09T01:55:43+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

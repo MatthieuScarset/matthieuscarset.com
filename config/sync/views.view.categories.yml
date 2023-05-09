@@ -199,6 +199,7 @@ display:
           admin_label: 'categories : Taxonomy term'
           plugin_id: standard
           required: true
+      use_ajax: true
       header: {  }
       footer: {  }
       display_extenders: {  }

@@ -1,0 +1,92 @@
+{
+    "uuid": [
+        {
+            "value": "85f15345-9ea0-4340-9678-7f05955489a5"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image",
+            "target_type": "media_type",
+            "target_uuid": "0b595087-6f87-4b25-98ef-cf6d9f57c057"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-05-09T14:12:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "name": [
+        {
+            "value": "screenshot-1.png"
+        }
+    ],
+    "thumbnail": [
+        {
+            "alt": "Mailchimp plugin",
+            "title": null,
+            "width": 1349,
+            "height": 694,
+            "target_type": "file",
+            "target_uuid": "73967301-9937-436f-b695-6c6178667c9b"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-09T14:12:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-05-09T14:12:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "fr"
+        }
+    ],
+    "field_media_image": [
+        {
+            "alt": "Mailchimp plugin",
+            "title": "",
+            "width": 1349,
+            "height": 694,
+            "target_type": "file",
+            "target_uuid": "73967301-9937-436f-b695-6c6178667c9b"
+        }
+    ]
+}

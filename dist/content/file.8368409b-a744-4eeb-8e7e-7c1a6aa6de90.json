@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "8368409b-a744-4eeb-8e7e-7c1a6aa6de90"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "filename": [
+        {
+            "value": "screenshot-2.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2023-05\/screenshot-2.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 38756
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-09T14:12:25+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-05-09T14:12:29+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

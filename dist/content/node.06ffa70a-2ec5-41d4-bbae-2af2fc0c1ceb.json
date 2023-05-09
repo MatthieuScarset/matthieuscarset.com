@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-04-19T16:33:23+00:00",
+            "value": "2023-05-09T15:21:55+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -94,7 +94,13 @@
             "value": false
         }
     ],
-    "body": [],
+    "body": [
+        {
+            "value": "<p style=\"-webkit-text-stroke-width:0px;border:0px;box-sizing:border-box;color:rgb(0, 0, 0);font-family:europa, sans-serif;font-feature-settings:inherit;font-kerning:inherit;font-optical-sizing:inherit;font-size:18px;font-stretch:inherit;font-style:normal;font-variant-alternates:inherit;font-variant-caps:normal;font-variant-east-asian:inherit;font-variant-ligatures:normal;font-variant-numeric:inherit;font-variation-settings:inherit;font-weight:300;letter-spacing:normal;line-height:1.6;margin:auto auto 0.5em;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;vertical-align:baseline;white-space:normal;widows:2;word-spacing:0px;\">Int\u00e9gration responsive depuis des maquettes Photoshop sur un site Drupal 7 avec Drupal Commerce. Impl\u00e9mentation d'un produit <em>Abonnement <\/em>avec paiement r\u00e9current.<\/p><p style=\"-webkit-text-stroke-width:0px;border:0px;box-sizing:border-box;color:rgb(0, 0, 0);font-family:europa, sans-serif;font-feature-settings:inherit;font-kerning:inherit;font-optical-sizing:inherit;font-size:18px;font-stretch:inherit;font-style:normal;font-variant-alternates:inherit;font-variant-caps:normal;font-variant-east-asian:inherit;font-variant-ligatures:normal;font-variant-numeric:inherit;font-variation-settings:inherit;font-weight:300;letter-spacing:normal;line-height:1.6;margin:auto auto 0.5em;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;vertical-align:baseline;white-space:normal;widows:2;word-spacing:0px;\">D\u00e9veloppement front end orchestr\u00e9 avec Capistrano. Styleguide auto-g\u00e9n\u00e9r\u00e9 avec KSS.<\/p>",
+            "format": "html",
+            "summary": ""
+        }
+    ],
     "categories": [
         {
             "target_type": "taxonomy_term",
@@ -105,5 +111,10 @@
             "target_uuid": "5ceb8650-7e1a-4020-b282-b0458748cd2a"
         }
     ],
-    "image": []
+    "image": [
+        {
+            "target_type": "media",
+            "target_uuid": "659f95d8-f34f-4db2-a46c-6766c09116ac"
+        }
+    ]
 }

@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "b59e88b4-5de8-4888-9dcf-3f4f580f47fe"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "filename": [
+        {
+            "value": "wp_woocommerce_plugin.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2023-05\/wp_woocommerce_plugin.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 244609
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-09T16:06:29+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-05-09T16:06:40+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

@@ -1,12 +1,22 @@
 {% extends "node.html.twig" %}
 
+{% block before_content %}
+  <footer class="node__meta">
+    {{ author_picture }}
+    <div{{ author_attributes.addClass('block') }}>
+      {% trans %}By {{ author_name }} on {{ date }}{% endtrans %}
+      {{ metadata }}
+    </div>
+  </footer>
+{% endblock %}
+
 {% block content %}
-	<div class="flex flex-col gap-16 md:flex-row">
-    <div class="image w-1/4">
+	<div class="flex flex-col gap-12 md:flex-row">
+    <div class="image flex-0">
       {{ content.image }}
     </div>
 
-		<div class="content flex flex-col gap-4">
+		<div class="content flex-1 inline-flex flex-col gap-4">
       {{ content|without('image') }}
 		</div>
 	</div>

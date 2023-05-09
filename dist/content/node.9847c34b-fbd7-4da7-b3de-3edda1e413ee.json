@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-04-19T16:26:16+00:00",
+            "value": "2023-05-09T16:07:00+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -94,7 +94,13 @@
             "value": false
         }
     ],
-    "body": [],
+    "body": [
+        {
+            "value": "<p>Un plugin permettant d'afficher la gamme de prix d'une cat\u00e9gories de produits dans WooCommerce.<\/p><p>Voir <a href=\"https:\/\/wordpress.org\/plugins\/olalaweb-woocommerce-category-prices\/\">le plugin sur WordPress.org<\/a>.<\/p>",
+            "format": "html",
+            "summary": ""
+        }
+    ],
     "categories": [
         {
             "target_type": "taxonomy_term",
@@ -103,7 +109,16 @@
         {
             "target_type": "taxonomy_term",
             "target_uuid": "6d39fe5b-3b26-4f3e-8302-452cb849edf9"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "5ceb8650-7e1a-4020-b282-b0458748cd2a"
         }
     ],
-    "image": []
+    "image": [
+        {
+            "target_type": "media",
+            "target_uuid": "c24d7caf-31f5-43ed-981c-7dbc2c6c4f30"
+        }
+    ]
 }

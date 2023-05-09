@@ -1,0 +1,92 @@
+{
+    "uuid": [
+        {
+            "value": "f71818ec-43ca-4c0f-b4e7-0add94f63004"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image",
+            "target_type": "media_type",
+            "target_uuid": "0b595087-6f87-4b25-98ef-cf6d9f57c057"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-05-09T23:31:44+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "name": [
+        {
+            "value": "drupal_nft_mint_form.png"
+        }
+    ],
+    "thumbnail": [
+        {
+            "alt": "Capture d'\u00e9cran d'une page du site",
+            "title": null,
+            "width": 1849,
+            "height": 912,
+            "target_type": "file",
+            "target_uuid": "2948f60d-2fb8-4f3a-8fbe-1e971af82f39"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-09T23:31:37+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-05-09T23:31:37+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "fr"
+        }
+    ],
+    "field_media_image": [
+        {
+            "alt": "Capture d'\u00e9cran d'une page du site",
+            "title": "",
+            "width": 1849,
+            "height": 912,
+            "target_type": "file",
+            "target_uuid": "2948f60d-2fb8-4f3a-8fbe-1e971af82f39"
+        }
+    ]
+}

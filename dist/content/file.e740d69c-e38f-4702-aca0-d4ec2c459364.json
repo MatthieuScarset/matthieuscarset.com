@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "e740d69c-e38f-4702-aca0-d4ec2c459364"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "filename": [
+        {
+            "value": "richardson_cart_details.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2023-05\/richardson_cart_details.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 273538
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-09T21:30:58+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-05-09T21:31:11+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

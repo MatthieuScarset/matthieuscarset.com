@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "33e9aead-010a-4c59-b3bf-de2175ce2d1b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "filename": [
+        {
+            "value": "velomajorque_homepage.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2023-05\/velomajorque_homepage.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 1074944
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-09T00:38:43+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-05-09T00:38:55+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

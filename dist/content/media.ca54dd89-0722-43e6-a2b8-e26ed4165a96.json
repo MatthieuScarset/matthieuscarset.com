@@ -1,0 +1,92 @@
+{
+    "uuid": [
+        {
+            "value": "ca54dd89-0722-43e6-a2b8-e26ed4165a96"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image",
+            "target_type": "media_type",
+            "target_uuid": "0b595087-6f87-4b25-98ef-cf6d9f57c057"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-05-09T16:18:18+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "name": [
+        {
+            "value": "sncf_home_master.png"
+        }
+    ],
+    "thumbnail": [
+        {
+            "alt": "Capture d'\u00e9cran de la page d'accueil du site",
+            "title": null,
+            "width": 1906,
+            "height": 870,
+            "target_type": "file",
+            "target_uuid": "4a42fd9e-94a2-4232-990f-0690b1d0d985"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-09T16:18:11+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-05-09T16:18:11+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "fr"
+        }
+    ],
+    "field_media_image": [
+        {
+            "alt": "Capture d'\u00e9cran de la page d'accueil du site",
+            "title": "",
+            "width": 1906,
+            "height": 870,
+            "target_type": "file",
+            "target_uuid": "4a42fd9e-94a2-4232-990f-0690b1d0d985"
+        }
+    ]
+}

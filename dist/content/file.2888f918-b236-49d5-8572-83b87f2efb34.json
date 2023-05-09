@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "2888f918-b236-49d5-8572-83b87f2efb34"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "157668a4-dd5f-4b8d-bd48-3ec38099e7d6"
+        }
+    ],
+    "filename": [
+        {
+            "value": "sncf_view.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2023-05\/sncf_view.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 268344
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-09T16:18:34+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-05-09T16:18:43+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

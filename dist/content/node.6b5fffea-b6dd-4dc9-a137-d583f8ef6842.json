@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-04-19T16:32:29+00:00",
+            "value": "2023-05-09T21:34:49+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -94,7 +94,13 @@
             "value": false
         }
     ],
-    "body": [],
+    "body": [
+        {
+            "value": "<p>D\u00e9veloppement du tunnel d'achat sur Drupal Commerce 2.<\/p><p>Impl\u00e9mentation de la passerelle de paiement du fournisseur de service bancaire.<\/p><p>D\u00e9couplage du parcours d'achat avec JSON:API pour l'application mobile.<\/p><p>Multiple int\u00e9gration responsive dont notamment le menu principal.<\/p>",
+            "format": "html",
+            "summary": ""
+        }
+    ],
     "categories": [
         {
             "target_type": "taxonomy_term",
@@ -103,7 +109,24 @@
         {
             "target_type": "taxonomy_term",
             "target_uuid": "5ceb8650-7e1a-4020-b282-b0458748cd2a"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "9f3c0f55-9ff7-4cfb-8dce-6c874cd96db2"
         }
     ],
-    "image": []
+    "image": [
+        {
+            "target_type": "media",
+            "target_uuid": "7d35994e-e62d-4ad7-9ff4-25cdc01a0b49"
+        },
+        {
+            "target_type": "media",
+            "target_uuid": "f2afbf90-97ee-4e8c-bdf1-66baaecbda93"
+        },
+        {
+            "target_type": "media",
+            "target_uuid": "ab752731-4e80-47b3-b51f-a345636e647a"
+        }
+    ]
 }
