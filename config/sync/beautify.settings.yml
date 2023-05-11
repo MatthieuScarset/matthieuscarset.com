@@ -1,0 +1,5 @@
+_core:
+  default_config_hash: '-lsiQJyECG60RDkHv3t1dw5KwsC5N6BLETrStLHChdg'
+default_html_beautifier: html
+admin_routes: 0
+langcode: fr
