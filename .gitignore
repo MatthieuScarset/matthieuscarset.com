@@ -26,3 +26,6 @@
 /.env
 /.editorconfig
 /.gitattributes
+
+# Static files
+/dist

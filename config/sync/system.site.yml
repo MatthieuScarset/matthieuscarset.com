@@ -2,9 +2,9 @@ _core:
   default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
 langcode: fr
 uuid: b6ba0ee3-9d3e-426e-8fb9-f4bccb61995b
-name: Matthieu
+name: 'Expert Drupal'
 mail: m@matthieuscarset.com
-slogan: 'Expert Drupal, pour vous servir.'
+slogan: 'Do or do not. There is no try.'
 page:
   403: ''
   404: ''
