@@ -31,7 +31,7 @@
     @apply mb-4 list-disc list-inside
   }
 
-  .post.full .content a {
+  .node.full .content a {
     @apply text-gray-700 border-b-2 hover:border-b-green-900;
   }
 
@@ -74,7 +74,7 @@
   .view-categories .view-content {
     @apply grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5;
   }
-  .view-categories .views-row .post,
+  .view-categories .views-row .node,
   .view-categories .views-row .relative {
     @apply min-h-max h-full;
   }
@@ -96,4 +96,20 @@
     @apply rounded overflow-hidden
   }
 
+  /** Navigation **/
+  .portfolio-navigation {
+    @apply max-w-full
+  }
+  .portfolio-navigation a {
+    @apply flex-1 inline-flex items-center gap-2  transition-all text-green-900 hover:text-blue-900
+  }
+  .portfolio-navigation .next {
+    @apply justify-end
+  }
+  .portfolio-navigation svg {
+    @apply h-8 w-auto
+  }
+  .portfolio-navigation span {
+    @apply font-medium
+  }
 }

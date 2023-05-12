@@ -2,9 +2,3 @@ global-styling:
   css:
     base:
       dist/styles.css: {}
-
-slider:
-  js:
-    js/slider.js: {}
-  dependencies:
-    - core/once

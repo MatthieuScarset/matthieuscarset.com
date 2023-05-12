@@ -12,8 +12,10 @@
         {{ content.body }}
       </div>
 		</div>
-    <div class="image absolute inset-0 mx-auto z-0 h-fit transition-all opacity-10 group-hover:opacity-80">
-		  {{ content.image }}
-		</div>
+    {% if content.image[0] %}
+      <div class="image absolute inset-0 mx-auto z-0 h-fit transition-all opacity-10 group-hover:opacity-80">
+        {{ content.image[0] }}
+      </div>
+    {% endif %}
 	</div>
 {% endblock %}

@@ -1,0 +1,20 @@
+uuid: 9967f2e7-988b-4bb4-83c5-db266f6261a2
+langcode: fr
+status: true
+dependencies:
+  module:
+    - matt
+  theme:
+    - matthieu
+id: matthieu_node_navigation
+theme: matthieu
+region: content
+weight: 1
+provider: null
+plugin: node_navigation
+settings:
+  id: node_navigation
+  label: 'Node navigation'
+  label_display: '0'
+  provider: matt
+visibility: {  }

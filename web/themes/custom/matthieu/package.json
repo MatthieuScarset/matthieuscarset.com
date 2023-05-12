@@ -1,8 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "dev": "npx tailwindcss --input src/styles.pcss --output dist/styles.css --watch",
-    "build": "npx tailwindcss --input src/styles.pcss --output dist/styles.css --minify"
+    "dev": "npx tailwindcss --input src/css/styles.pcss --output dist/styles.css --watch",
+    "build": "npx tailwindcss --input src/css/styles.pcss --output dist/styles.css --minify"
   },
   "devDependencies": {
     "postcss": "^8.4.5",

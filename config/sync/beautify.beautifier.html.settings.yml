@@ -1,6 +1,6 @@
 _core:
   default_config_hash: pn_kGqPnOiVPeZLnnT-E8UzMximJXuI5Oq1Cls2MiIA
-indentation: '4'
+indentation: '2,'
 remove_comments: 1
 compact: 0
 langcode: fr

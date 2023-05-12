@@ -1,11 +1,18 @@
+{% set categories = node.categories.getString()|split(',') %}
+{% set category = null %}
+{% set category = '1' in categories ? 'project' : category %}
+{% set category = '2' in categories ? 'page' : category %}
+{% set category = '3' in categories ? 'blog' : category %}
+
 {%
   set classes = [
-    node.bundle|clean_class,
-    not node.isPublished() ? 'node--unpublished',
-    view_mode ? view_mode|clean_class,
     'relative',
+    'node',
+    category|clean_class,
+    view_mode ? view_mode|clean_class,
   ]
 %}
+
 <article{{attributes.addClass(classes)}}>
 	{% block before_content %}{% endblock %}
 
