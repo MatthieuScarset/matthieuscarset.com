@@ -1,0 +1,31 @@
+uuid: 8ac61ff3-fa9d-4b08-8ecd-8774be8ad0be
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_page_content
+    - node.type.page
+    - storage.storage_type.formatted_text
+    - storage.storage_type.resume_section
+id: node.page.field_page_content
+field_name: field_page_content
+entity_type: node
+bundle: page
+label: Content
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:storage'
+  handler_settings:
+    target_bundles:
+      formatted_text: formatted_text
+      resume_section: resume_section
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: formatted_text
+field_type: entity_reference

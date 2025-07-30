@@ -1,14 +1,15 @@
 _core:
-  default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
-langcode: fr
-uuid: b6ba0ee3-9d3e-426e-8fb9-f4bccb61995b
-name: 'Expert Drupal'
+  default_config_hash: HlN7eAN2N4JIHsYv56V4E7sqC9bS609KwvGFjyD_mgk
+langcode: en
+uuid: c1b71fea-499f-46ea-b240-73952c2ec5ff
+name: 'Matthieu Scarset'
 mail: m@matthieuscarset.com
-slogan: 'Do or do not. There is no try.'
+slogan: 'Tech lead expert Drupal, Data engineer and full stack dad'
 page:
   403: ''
   404: ''
-  front: /node/2
+  front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
-default_langcode: fr
+default_langcode: en
+mail_notification: ''

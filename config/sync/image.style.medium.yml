@@ -1,17 +1,23 @@
-uuid: 62fccaad-f582-444a-a23c-9b678d8de7fc
-langcode: fr
+uuid: fe686ed4-5f95-451e-8bf0-73181b60fa33
+langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: Y9NmnZHQq20ASSyTNA6JnwtWrJJiSajOehGDtmUFdM0
+  default_config_hash: aUG-EM9kKTKhcsdttoYmG5tug7pU2mNOQzcpp91jfFQ
 name: medium
 label: 'Medium (220×220)'
 effects:
-  daa0c451-220d-4055-b88b-0f78289bdb21:
-    uuid: daa0c451-220d-4055-b88b-0f78289bdb21
-    id: image_scale_and_crop
-    weight: 2
+  bddf0d06-42f9-4c75-a700-a33cafa25ea0:
+    uuid: bddf0d06-42f9-4c75-a700-a33cafa25ea0
+    id: image_scale
+    weight: 0
     data:
       width: 220
       height: 220
-      anchor: center-center
+      upscale: false
+  c410ed2f-aa30-4d9c-a224-d2865d9188cd:
+    uuid: c410ed2f-aa30-4d9c-a224-d2865d9188cd
+    id: image_convert_avif
+    weight: 2
+    data:
+      extension: webp

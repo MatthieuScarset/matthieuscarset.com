@@ -1,0 +1,13 @@
+uuid: aa67693a-9343-409c-bd80-f728cc960f14
+langcode: en
+status: true
+dependencies: {  }
+id: resume_section
+label: 'Resume section'
+description: 'A block of a the resume page.'
+help: ''
+new_revision: false
+revision_expose: false
+revision_log: false
+name_pattern: '[storage:string-representation]'
+has_canonical: false

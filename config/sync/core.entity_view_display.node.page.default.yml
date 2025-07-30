@@ -1,0 +1,25 @@
+uuid: af0e250b-c4da-4d59-b01c-a5d3e8b9edcd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.page.field_page_content
+    - node.type.page
+  module:
+    - user
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  field_page_content:
+    type: entity_reference_entity_view
+    label: visually_hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  links: true

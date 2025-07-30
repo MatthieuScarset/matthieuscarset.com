@@ -1,5 +1,5 @@
-uuid: 8ed977ca-9635-4572-9975-ccdb9d00566a
-langcode: fr
+uuid: b15e5cf2-f979-4adb-bd65-2cc8add047eb
+langcode: en
 status: true
 dependencies:
   theme:
@@ -9,12 +9,12 @@ _core:
 id: claro_page_title
 theme: claro
 region: header
-weight: -2
+weight: -30
 provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: 'Titre de page'
+  label: 'Page title'
   label_display: '0'
   provider: core
 visibility: {  }

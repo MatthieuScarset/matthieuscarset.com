@@ -1,0 +1,13 @@
+uuid: 18c7eb78-67dc-4fc5-9f4b-8776998cf7e5
+langcode: en
+status: true
+dependencies: {  }
+id: formatted_text
+label: 'Formatted text'
+description: 'A block of formatted text'
+help: ''
+new_revision: false
+revision_expose: false
+revision_log: false
+name_pattern: '[storage:string-representation]'
+has_canonical: false

@@ -1,0 +1,23 @@
+uuid: 124e81d0-80f9-47b1-900e-931143976fbd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.storage.resume_section.field_title
+    - storage.storage_type.resume_section
+id: storage.resume_section.default
+targetEntityType: storage
+bundle: resume_section
+mode: default
+content:
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  name: true
+  user_id: true

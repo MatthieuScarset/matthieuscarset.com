@@ -1,15 +1,15 @@
-uuid: 2c1c94ae-0513-4a2d-a501-857f38a02d91
+uuid: 2e27a7cb-09b9-43ad-a82e-e3e9aac08b53
 langcode: en
 status: true
 dependencies:
   theme:
     - matthieu
 _core:
-  default_config_hash: ACjBZI5shAMiiUpsz-inLYVXDqNNXRnSzAWV3kV_8Hw
+  default_config_hash: Hh01DLj9k7UnNdPpOQXHZHW7GHf2OPNDQyCJF7_R9ac
 id: matthieu_primary_local_tasks
 theme: matthieu
-region: content
-weight: -5
+region: header
+weight: 0
 provider: null
 plugin: local_tasks_block
 settings:

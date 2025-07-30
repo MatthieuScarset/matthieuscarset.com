@@ -1,15 +1,15 @@
-uuid: 895069d2-72c3-4d8a-8882-6af28e62efca
+uuid: dcfef0f9-9ebc-4c9e-865c-eb6dff676ae8
 langcode: en
 status: true
 dependencies:
   theme:
     - matthieu
 _core:
-  default_config_hash: fNwDdW063tk_ktzSWzZVeQS9wzvLooVO280BQ9WrsIs
+  default_config_hash: HLQY2xgby8K3vN_98hiOSasOhm9pdCsH234-s0duJ8Q
 id: matthieu_page_title
 theme: matthieu
-region: content
-weight: -1
+region: header
+weight: -30
 provider: null
 plugin: page_title_block
 settings:

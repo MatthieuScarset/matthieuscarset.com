@@ -1,20 +1,16 @@
-uuid: a1449bb4-266e-45ef-8c5f-806993d2ffe6
-langcode: fr
+uuid: 33264a60-5fa0-4317-9cb0-e0677aecb5ae
+langcode: en
 status: true
 dependencies:
-  config:
-    - filter.format.html
   module:
-    - filter
     - media
     - system
 _core:
   default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
 id: authenticated
-label: 'Utilisateur authentifié'
+label: 'Authenticated user'
 weight: 1
 is_admin: false
 permissions:
   - 'access content'
-  - 'use text format html'
   - 'view media'

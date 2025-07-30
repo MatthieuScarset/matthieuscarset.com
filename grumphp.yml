@@ -92,5 +92,13 @@ grumphp:
     composer: ~             # Composer validation
 
     # Git
-    git_commit_message: ~   # Commit message validation
+    git_commit_message:     # Commit message validation for conventional commits
+      matchers:
+        - '/^(feat|fix|docs|style|refactor|perf|test|chore|build|ci|revert)(\(.+\))?: .+$/'
+      case_insensitive: true
+      multiline: true
+      enforce_capitalized_subject: false
+      enforce_no_subject_punctuations: false
+      enforce_single_lined_subject: false
+      type_scope_conventions: []
     git_blacklist: ~        # Prevent committing blacklisted files

@@ -49,8 +49,8 @@ class ScriptHandler {
     }
 
     // Prepare the settings file for installation.
-    if (!$fs->exists($drupalRoot . '/sites/default/settings.php') && $fs->exists($drupalRoot . '/sites/custom.settings.php')) {
-      $fs->copy($drupalRoot . '/sites/custom.settings.php', $drupalRoot . '/sites/default/settings.php');
+    if (!$fs->exists($drupalRoot . '/sites/default/settings.php') && $fs->exists($drupalRoot . '/sites/default.settings.php')) {
+      $fs->copy($drupalRoot . '/sites/default.settings.php', $drupalRoot . '/sites/default/settings.php');
       $fs->chmod($drupalRoot . '/sites/default/settings.php', 0666);
       $event->getIO()->write("Created a sites/default/settings.php file from custom file with chmod 0666");
     }
@@ -60,14 +60,10 @@ class ScriptHandler {
       $event->getIO()->write("Created a sites/default/settings.php file from default file, with chmod 0666");
     }
 
-    // Prepare the services file for development.
-    if (!$fs->exists($drupalRoot . '/sites/default/services.yml') && $fs->exists($drupalRoot . '/sites/custom.services.yml')) {
-      $fs->copy($drupalRoot . '/sites/custom.services.yml', $drupalRoot . '/sites/default/services.yml');
-      $event->getIO()->write("Created a sites/default/services.yml file from custom file");
-    }
-    if (!$fs->exists($drupalRoot . '/sites/default/services.yml') && $fs->exists($drupalRoot . '/sites/default.services.yml')) {
+    // Prepare the default services file.
+    if (!$fs->exists($drupalRoot . '/sites/default/services.yml') && $fs->exists($drupalRoot . '/sites/default/default.services.yml')) {
       $fs->copy($drupalRoot . '/sites/default/default.services.yml', $drupalRoot . '/sites/default/services.yml');
-      $event->getIO()->write("Created a sites/default/services.yml file from custom file");
+      $event->getIO()->write("Created a sites/default/services.yml file from default file");
     }
 
     // Create the files directory with chmod 0777.

@@ -1,0 +1,22 @@
+uuid: aa2570ab-5e80-4640-a62b-713b611f4da5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_formatted_text
+    - storage.storage_type.formatted_text
+  module:
+    - text
+id: storage.formatted_text.field_formatted_text
+field_name: field_formatted_text
+entity_type: storage
+bundle: formatted_text
+label: Content
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

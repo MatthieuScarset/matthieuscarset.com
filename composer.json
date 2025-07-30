@@ -1,5 +1,5 @@
 {
-    "name": "matthieuscarset/drupal-template",
+    "name": "matthieuscarset/matthieuscarset.com",
     "description": "My personal website.",
     "type": "project",
     "license": "GPL-2.0-or-later",
@@ -23,7 +23,10 @@
         "cweagans/composer-patches": "^1.0",
         "drupal/core-composer-scaffold": "^11.0",
         "drupal/core-recommended": "^11.0",
+        "drupal/gin": "^5.0",
+        "drupal/inline_entity_form": "^3.0@RC",
         "drupal/smart_trim": "^2.0",
+        "drupal/storage": "^1.4@RC",
         "drupal/tome": "^1.0",
         "drush/drush": "^13.0",
         "vlucas/phpdotenv": "^5.0",

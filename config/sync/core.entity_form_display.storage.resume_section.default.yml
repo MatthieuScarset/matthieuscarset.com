@@ -1,0 +1,24 @@
+uuid: 89358443-448a-47a4-b343-50aa5b26ed97
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.storage.resume_section.field_title
+    - storage.storage_type.resume_section
+id: storage.resume_section.default
+targetEntityType: storage
+bundle: resume_section
+mode: default
+content:
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  name: true
+  status: true
+  user_id: true

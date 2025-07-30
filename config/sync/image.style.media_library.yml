@@ -1,12 +1,12 @@
-uuid: ff765e1b-788d-4138-8743-2867c246f8d3
-langcode: fr
+uuid: a71f7fdc-ca0a-4d05-89d0-8bc9d3ddbfbc
+langcode: en
 status: true
 dependencies:
   enforced:
     module:
       - media_library
 _core:
-  default_config_hash: 7qJqToD1OQLAyeswpmg7M0LRxQlw1URQkJDWUJCnmR8
+  default_config_hash: RLU5O05P9vuBxEQjSSs9xRH-Mu8KXEyzUHRIS2R4Lm0
 name: media_library
 label: 'Media Library thumbnail (220×220)'
 effects:
@@ -18,3 +18,9 @@ effects:
       width: 220
       height: 220
       upscale: false
+  1021da71-fc2a-43d0-be5d-efaf1c79e2ea:
+    uuid: 1021da71-fc2a-43d0-be5d-efaf1c79e2ea
+    id: image_convert_avif
+    weight: 2
+    data:
+      extension: webp

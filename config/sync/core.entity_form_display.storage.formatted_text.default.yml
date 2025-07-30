@@ -1,0 +1,26 @@
+uuid: 0b5b9c43-6d45-4181-86c9-f4318e195d57
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.storage.formatted_text.field_formatted_text
+    - storage.storage_type.formatted_text
+  module:
+    - text
+id: storage.formatted_text.default
+targetEntityType: storage
+bundle: formatted_text
+mode: default
+content:
+  field_formatted_text:
+    type: text_textarea
+    weight: 26
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  name: true
+  status: true
+  user_id: true

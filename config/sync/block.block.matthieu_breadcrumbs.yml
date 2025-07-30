@@ -1,0 +1,22 @@
+uuid: c0b93d24-e5ee-45ef-80d6-075bbf2d8204
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - matthieu
+_core:
+  default_config_hash: y9X3xgCsO59pQyzNLzY1D3SDJJxCHILLWkpPnmuTJ2E
+id: matthieu_breadcrumbs
+theme: matthieu
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }
