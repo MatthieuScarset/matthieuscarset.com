@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @file
+ * Contains hooks and preprocess for this site.
+ */
+
 use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
 use Drupal\node\NodeInterface;
 use Drupal\taxonomy\TermInterface;
@@ -18,10 +23,10 @@ function matt_theme() {
   ];
 }
 
-// @todo Preprocess categories field to remove Porffolio (1) from value.
-
 /**
  * Implements hook_ENTITY_TYPE_view().
+ *
+ * @todo Preprocess categories field to remove Porffolio (1) from value.
  */
 function matt_taxonomy_term_view(array &$build, TermInterface $term, EntityViewDisplayInterface $display, $view_mode) {
   // Render the contextualized View.
@@ -46,7 +51,8 @@ function matt_node_view(array &$build, NodeInterface $node, EntityViewDisplayInt
     ->range(0, 1)
     ->execute();
 
-  if ($previous = (!empty($nids) ? $storage->load(reset($nids)) : NULL)) {
+  $previous = !empty($nids) ? $storage->load(reset($nids)) : NULL;
+  if ($previous) {
     $build['#previous'] = $previous;
   }
 
@@ -60,7 +66,8 @@ function matt_node_view(array &$build, NodeInterface $node, EntityViewDisplayInt
     ->range(0, 1)
     ->execute();
 
-  if ($next = (!empty($nids) ? $storage->load(reset($nids)) : NULL)) {
+  $next = !empty($nids) ? $storage->load(reset($nids)) : NULL;
+  if ($next) {
     $build['#next'] = $next;
   }
 }

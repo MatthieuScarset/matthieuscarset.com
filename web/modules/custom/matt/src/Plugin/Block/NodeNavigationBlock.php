@@ -4,7 +4,6 @@ namespace Drupal\matt\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
-use Drupal\Core\Render\Markup;
 use Drupal\node\NodeInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
@@ -54,7 +53,7 @@ class NodeNavigationBlock extends BlockBase implements ContainerFactoryPluginInt
 
     $previous = $this->getSibling($node, 'previous');
     $next = $this->getSibling($node, 'next', [
-      $previous instanceof NodeInterface ? $previous->id() : NULL
+      $previous instanceof NodeInterface ? $previous->id() : NULL,
     ]);
 
     return [
@@ -87,32 +86,33 @@ class NodeNavigationBlock extends BlockBase implements ContainerFactoryPluginInt
       return NULL;
     }
 
-    $q = $this->nodeStorage->getQuery();
-    $q->condition('created', $node->created->getString(), $created_order);
+    $query = $this->nodeStorage->getQuery();
+    $query->condition('created', $node->created->getString(), $created_order);
 
-    // Portfolio
+    // Portfolio.
     if (in_array('1', $categories)) {
-      $q->condition('categories', ['1'], 'IN');
+      $query->condition('categories', ['1'], 'IN');
     }
 
-    // Page
+    // Page.
     if (in_array('2', $categories)) {
-      $q->condition('categories', ['2'], 'IN');
+      $query->condition('categories', ['2'], 'IN');
     }
 
-    // Post
+    // Post.
     if (in_array('3', $categories)) {
-      $q->condition('categories', ['3'], 'IN');
+      $query->condition('categories', ['3'], 'IN');
     }
 
-    $q->condition('status', NodeInterface::PUBLISHED);
-    $q->condition('nid', $excluded, 'NOT IN');
-    $q->sort('created', $sort_order);
-    $q->range(0, 1);
-    $q->accessCheck(FALSE);
-    $nids = $q->execute();
+    $query->condition('status', NodeInterface::PUBLISHED);
+    $query->condition('nid', $excluded, 'NOT IN');
+    $query->sort('created', $sort_order);
+    $query->range(0, 1);
+    $query->accessCheck(FALSE);
+    $nids = $query->execute();
     $nid = reset($nids) ?? NULL;
 
     return $nid ? $this->nodeStorage->load($nid) : NULL;
   }
+
 }

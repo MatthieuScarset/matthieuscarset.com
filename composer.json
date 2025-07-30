@@ -18,22 +18,23 @@
         }
     ],
     "require": {
-        "php": ">=8.1",
-        "composer/installers": "^2.1",
-        "cweagans/composer-patches": "^1.7",
-        "drupal/beautify": "^1.0",
-        "drupal/core-composer-scaffold": "^10.0.0",
-        "drupal/core-project-message": "^10",
-        "drupal/core-recommended": "^10.0.0",
+        "php": ">=8.4",
+        "composer/installers": "^2.0",
+        "cweagans/composer-patches": "^1.0",
+        "drupal/core-composer-scaffold": "^11.0",
+        "drupal/core-recommended": "^11.0",
         "drupal/smart_trim": "^2.0",
-        "drupal/tome": "^1.11",
-        "drupal/views_taxonomy_radios_filter": "^1.0",
-        "drush/drush": "^11.4.0",
-        "vlucas/phpdotenv": "^5.1",
-        "webflo/drupal-finder": "^1.2"
+        "drupal/tome": "^1.0",
+        "drush/drush": "^13.0",
+        "vlucas/phpdotenv": "^5.0",
+        "webflo/drupal-finder": "^1.0"
     },
     "require-dev": {
-        "drupal/core-dev": "^10"
+        "drupal/core-dev": "^11",
+        "friendsoftwig/twigcs": ">=4",
+        "php-parallel-lint/php-parallel-lint": "^1.4",
+        "phpmd/phpmd": "^2.15",
+        "phpro/grumphp-shim": "^2.14"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -46,32 +47,24 @@
         "allow-plugins": {
             "composer/installers": true,
             "cweagans/composer-patches": true,
-            "drupal/core-composer-scaffold": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
-            "drupal/core-project-message": true,
-            "phpstan/extension-installer": true
+            "drupal/core-composer-scaffold": true,
+            "php-http/discovery": true,
+            "phpstan/extension-installer": true,
+            "tbachert/spi": true,
+            "phpro/grumphp-shim": true
         }
     },
     "autoload": {
         "classmap": [
             "scripts/composer/ScriptHandler.php"
         ],
-        "files": ["load.environment.php"]
+        "files": [
+            "load.environment.php"
+        ]
     },
     "scripts": {
-        "pre-install-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion",
-            "cp -n .env.example .env",
-            "cp -n web/sites/custom.settings.php web/sites/default/settings.php",
-            "echo $RANDOM | md5sum | head -c 20 > web/sites/default/salt.txt"
-        ],
-        "pre-update-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
-        ],
         "post-install-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
-        ],
-        "post-update-cmd": [
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
         ]
     },
@@ -82,21 +75,29 @@
             }
         },
         "installer-paths": {
-            "web/core": ["type:drupal-core"],
-            "web/libraries/{$name}": ["type:drupal-library"],
-            "web/modules/contrib/{$name}": ["type:drupal-module"],
-            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
-            "web/themes/contrib/{$name}": ["type:drupal-theme"],
-            "drush/Commands/contrib/{$name}": ["type:drupal-drush"]
+            "web/core": [
+                "type:drupal-core"
+            ],
+            "web/libraries/{$name}": [
+                "type:drupal-library"
+            ],
+            "web/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "web/profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "web/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "drush/Commands/contrib/{$name}": [
+                "type:drupal-drush"
+            ]
         },
         "composer-exit-on-patch-failure": true,
         "patchLevel": {
             "drupal/core": "-p2"
         },
-        "patches": {
-            "drupal/core": {
-                "Add class Twig filter": "https://www.drupal.org/files/issues/2023-04-19/3301853-53.patch"
-            }
-        }
+        "patches": {}
     }
 }

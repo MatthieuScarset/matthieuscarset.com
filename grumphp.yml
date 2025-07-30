@@ -1,0 +1,96 @@
+parameters:
+  git_dir: .
+  bin_dir: vendor/bin
+grumphp:
+  # All configured tasks.
+  # @see https://github.com/phpro/grumphp/blob/v2.x/doc/tasks/
+  # @see https://gist.github.com/MatthieuScarset/456bb7b301c47dac7e0b96e12b4253e2
+  tasks:
+    # Code Quality
+    phplint:                # PHP syntax checking
+      exclude:
+        - web/core
+        - web/modules/contrib
+        - web/themes/contrib
+        - web/profiles/contrib
+        - web/sites/default
+        - vendor
+      triggered_by:
+        - php
+        - module
+        - install
+        - theme
+        - inc
+    phpcs:                  # PHP CodeSniffer
+      standard:
+        - phpcs.xml
+      ignore_patterns:
+        - .github
+        - .gitlab
+        - .ddev
+        - /config
+        - /drush
+        - /web/robots.txt
+        - /web/sites/default
+        - bower_components
+        - node_modules
+        - vendor
+        - maintenance
+        - core
+        - modules/contrib
+        - modules/temporary
+        - themes/contrib
+        - profiles/contrib
+      triggered_by:
+        - php
+        - module
+        - inc
+        - install
+        - test
+        - profile
+        - theme
+        - info
+    phpmd:                  # PHP Mess Detector
+      report_format: ansi
+      whitelist_patterns:
+        - /^web\/modules\/custom\/(.*)/
+        - /^web\/themes\/custom\/(.*)/
+      ruleset:
+        - phpmd.xml
+      triggered_by:
+        - php
+        - module
+        - theme
+    phpstan:                # Static Analysis
+      configuration: phpstan.neon
+      triggered_by:
+        - php
+        - module
+        - theme
+        - inc
+      memory_limit: "-1"
+      use_grumphp_paths: true
+
+    # Frontend/Template
+    yamllint: ~             # YAML linting
+    jsonlint: ~             # JSON linting
+    twigcs:                 # Twig coding standards
+      path: 'web'
+      ruleset: 'FriendsOfTwig\Twigcs\Ruleset\Official'
+      exclude:
+        - core
+        - modules/contrib
+        - themes/contrib
+        - profiles/contrib
+    eslint: ~               # JavaScript linting
+    stylelint: ~            # CSS linting
+
+    # Testing
+    phpunit: ~              # PHP Unit testing
+
+    # Security & Dependencies
+    composer: ~             # Composer validation
+
+    # Git
+    git_commit_message: ~   # Commit message validation
+    git_blacklist: ~        # Prevent committing blacklisted files

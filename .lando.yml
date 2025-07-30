@@ -1,8 +1,0 @@
-name: matthieuscarset
-recipe: drupal10
-services:
-  appserver:
-    webroot: web
-    xdebug: debug
-    config:
-      php: .vscode/php.ini
